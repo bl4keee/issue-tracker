@@ -1,27 +1,17 @@
 # IssueTracker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+This is a simple application for managing and tracking issues/tasks built with Angular and Clarity Design System with the use of reactive forms.
+- App displays list of pending issues on a front panel
+- enables reporting a new issue through a form available at "Add New Issue" button
+- reactive form enabling reporting new issues consist of validation rules of the required fields to prevent unwanted behaviour
+- available issues can be resolved through a modal dialog available on the left-hand side of the issue
+- app suggests related issues while reporting a new one
 
-## Development server
+## Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![issue-tracker](https://user-images.githubusercontent.com/50672367/170697779-ee8f6528-cd56-49c5-9309-bac3f12f6a97.gif)
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
